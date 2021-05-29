@@ -3,7 +3,7 @@ package br.com.impacta.lab;
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
-import br.com.impacta.models.*;
+import br.com.impacta.lab.models.*;
 import org.junit.Test;
 
 class JavaSpringTemplateApplicationTests {
@@ -17,7 +17,5 @@ class JavaSpringTemplateApplicationTests {
 		carro.setValor(50000.00);
 		
 		assertEquals("Azul", carro.getCor());
-		
-	}
-	
+	}	
 }
